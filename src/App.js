@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <button onClick={(event) => this.handleOnClick(event)}>
-          Click
+          Click 
           </button>
         <p>{this.props.items.length}</p>
       </div>
